@@ -6,8 +6,8 @@ const SidebarItem = ({ to, Children }) => {
       <NavLink
         to={to}
         className={({ isActive }) =>
-          `block hover:bg-blue-50 p-2 rounded w-full h-full ${
-            isActive ? "bg-blue-100" : ""
+          `block hover:bg-blue-50 dark:hover:bg-gray-600 p-2 rounded w-full h-full ${
+            isActive ? "bg-blue-100 dark:bg-gray-700" : ""
           }`
         }
       >
