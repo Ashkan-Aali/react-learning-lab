@@ -11,8 +11,9 @@ const Content = () => {
     <div className="fixed top-0 left-0 h-screen w-full bg-gray-100 dark:bg-gray-600 pr-64 pt-16">
       <div className="p-4">
         <Routes>
-          <Route path="/users" element={<UsersPage />} />
+          <Route path="/users" element={<UsersPage />}/> 
           <Route path="/users/add-user" element={<AddUserPage />} /> 
+          <Route path="/users/edit-user/:id" element={<AddUserPage />} /> 
           <Route path="/posts" element={<PostsPage />} />
           <Route path="/comments" element={<CommentsPage />} />
           <Route path="/tasks" element={<TasksPage />} />

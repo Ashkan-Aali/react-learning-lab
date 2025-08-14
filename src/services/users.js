@@ -27,7 +27,6 @@ export const updateUserServices = (id,data) => {
     });
 };
 
-export const deleteUserServices = async (id) => {
-    const response = await axios.delete(`https://jsonplaceholder.typicode.com/users/${id}`);
-    return response.data;
+export const deleteUserService = (id) => {
+    return axios.delete(`https://jsonplaceholder.typicode.com/users/${id}`);
 };
