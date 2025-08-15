@@ -36,14 +36,14 @@ export default function AddUserPage() {
   };
 
   return (
-    <div className="max-w-2xl mx-auto dark:text-gray-100">
+    <div className="mx-auto dark:text-gray-100 w-full items-center">
       <h1 className="text-2xl font-bold text-center mb-6 dark:text-gray-100 text-gray-800">
         {userToEdit ? "ویرایش کاربر" : "افزودن کاربر"}
       </h1>
 
       <form
         onSubmit={handleSubmit}
-        className="bg-white  dark:bg-gray-900 rounded-lg p-8 shadow-2xl"
+        className="bg-white  dark:bg-gray-900 rounded-lg p-8 shadow-2xl mx-auto max-w-xl"
       >
         <div className="mb-6">
           <label

@@ -29,7 +29,7 @@ const UsersPage = () => {
   }, []);
 
   return (
-    <div className="space-y-4">
+    <div className="space-y-4 w-4/5">
       <div className="flex justify-between items-center">
         <h1 className="text-2xl font-bold">مدیریت کاربران</h1>
         <Link
